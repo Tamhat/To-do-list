@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo-List</title>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="index.css" />
+    <!-- fontawesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="section-center">
+      <!-- header -->
+      
+      <header>
+        <h1>Your Daily ToDO List</h1>
+      </header>
+      
+      <!-- alert -->
+      <p class="alert1"></p>
+      <p class="alert2"></p>
+      <p class="alert3"></p>
+      <!--form -->
+      <form>
+        <input type="text" class="todo-input" />
+        <button class="todo-btn" type="submit">
+          <i class="fas fa-plus-square"></i>
+        </button>
+      </form>
+      <!-- todo list container -->
+      <div class="todo-container">
+        <ul class="todo-list"></ul>
+      </div>
+      <!-- btn -->
+      <button type="button" class="clear">Clear Items</button>
+    </section>
+    <!-- js code -->
+    <script src="index.js"></script>
+  </body>
+</html>
